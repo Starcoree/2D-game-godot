@@ -1,0 +1,9 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1718964991
+icon.svg::CompressedTexture2D::5200010911429757752::1718900132::1718900353::1::::<><>::
+player.tscn::PackedScene::7883327753255955417::1718900132::0::1::::<><>::res://scripts/player.gd<>uid://dpo0vwn1ay47j::::res://Screenshot_2024-04-08_233602-removebg-preview.png
+Screenshot_2024-04-08_233602-removebg-preview.png::CompressedTexture2D::8242552597476249725::1718900132::1718900353::1::::<><>::
+venezuela-tachira-february-05-2023-260nw-2299245343.webp::CompressedTexture2D::5011609054117225045::1718964991::1718964992::1::::<><>::
+world.tscn::PackedScene::3114432121631358733::1718964635::0::1::::<><>::uid://dkk0iykxx32b2::::res://player.tscn
+::res://scripts/::1718900132
+player.gd::GDScript::-1::1718900132::0::1::::<>CharacterBody2D<>::
