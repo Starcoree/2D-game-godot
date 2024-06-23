@@ -1,3 +1,4 @@
 res://world.tscn
-res://scripts/LineOfDeath.gd
 res://scripts/player.gd
+res://scripts/LineOfDeath.gd
+res://scripts/GameState.gd

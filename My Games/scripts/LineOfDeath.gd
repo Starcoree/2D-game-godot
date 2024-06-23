@@ -10,5 +10,10 @@ func _on_body_entered(body):
 		# Add the logic for what happens when the player enters the line of death
 		# For example: restart the level, decrease health, etc.
 		print("Player has crossed the line of death!")
+		# Decrease lives and check if game should continue
+		GameState.decrease_lives()
 		# Example action: Restart the level
-		get_tree().reload_current_scene()
+		#get_tree().reload_current_scene()
+		if GameState.lives > -1:
+			get_tree().reload_current_scene()
+		
