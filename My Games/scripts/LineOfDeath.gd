@@ -14,6 +14,8 @@ func _on_body_entered(body):
 		GameState.decrease_lives()
 		# Example action: Restart the level
 		#get_tree().reload_current_scene()
-		if GameState.lives > -1:
+		if GameState.lives < 1:
+			GameState.game_over()
+		if GameState.lives > 0:
 			get_tree().reload_current_scene()
 		

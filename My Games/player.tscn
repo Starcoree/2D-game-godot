@@ -27,7 +27,7 @@ shape = SubResource("RectangleShape2D_hjmgw")
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(-63, -69)
 
-[node name="Screenshot2024-04-08233602-removebg-preview" type="Sprite2D" parent="."]
+[node name="sprite" type="Sprite2D" parent="."]
 position = Vector2(31, -115)
 scale = Vector2(1.00735, 0.957447)
 texture = ExtResource("2_0x1f6")

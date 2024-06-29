@@ -1,10 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1719132453
+::res://::1719669334
 icon.svg::CompressedTexture2D::5200010911429757752::1718900132::1718900353::1::::<><>::
 player.tscn::PackedScene::7883327753255955417::1718900132::0::1::::<><>::res://scripts/player.gd<>uid://dpo0vwn1ay47j::::res://Screenshot_2024-04-08_233602-removebg-preview.png
 Screenshot_2024-04-08_233602-removebg-preview.png::CompressedTexture2D::8242552597476249725::1718900132::1718900353::1::::<><>::
 venezuela-tachira-february-05-2023-260nw-2299245343.webp::CompressedTexture2D::5011609054117225045::1718965296::1718964992::1::::<><>::
-world.tscn::PackedScene::3114432121631358733::1718967398::0::1::::<><>::uid://cdnwp7cjog6mr::::res://venezuela-tachira-february-05-2023-260nw-2299245343.webp<>uid://dkk0iykxx32b2::::res://player.tscn<>res://scripts/LineOfDeath.gd
-::res://scripts/::1718966762
-LineOfDeath.gd::GDScript::-1::1718966072::0::1::::<>Area2D<>::
-player.gd::GDScript::-1::1718966762::0::1::::<>RefCounted<>::
+world.tscn::PackedScene::3114432121631358733::1719134059::0::1::::<><>::uid://cdnwp7cjog6mr::::res://venezuela-tachira-february-05-2023-260nw-2299245343.webp<>uid://dkk0iykxx32b2::::res://player.tscn<>res://scripts/LineOfDeath.gd
+::res://scripts/::1719134056
+GameState.gd::GDScript::-1::1719133269::0::1::::<>Node<>::
+LineOfDeath.gd::GDScript::-1::1719134056::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1719134003::0::1::::<>CharacterBody2D<>::

@@ -1,24 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://bkmwih1k00dsf"]
+[gd_scene load_steps=7 format=3 uid="uid://bkmwih1k00dsf"]
 
 [ext_resource type="Texture2D" uid="uid://cdnwp7cjog6mr" path="res://venezuela-tachira-february-05-2023-260nw-2299245343.webp" id="1_0qq5r"]
 [ext_resource type="PackedScene" uid="uid://dkk0iykxx32b2" path="res://player.tscn" id="1_jqqyg"]
 [ext_resource type="Script" path="res://scripts/LineOfDeath.gd" id="3_04gxv"]
-
-[sub_resource type="FontFile" id="FontFile_5hdgf"]
-cache/0/14/0/ascent = 0.0
-cache/0/14/0/descent = 0.0
-cache/0/14/0/underline_position = 0.0
-cache/0/14/0/underline_thickness = 0.0
-cache/0/14/0/scale = 1.0
-cache/0/14/0/kerning_overrides/14/0 = Vector2(0, 0)
-cache/0/14/0/kerning_overrides/16/0 = Vector2(0, 0)
-cache/0/16/0/ascent = 0.0
-cache/0/16/0/descent = 0.0
-cache/0/16/0/underline_position = 0.0
-cache/0/16/0/underline_thickness = 0.0
-cache/0/16/0/scale = 1.0
-cache/0/16/0/kerning_overrides/14/0 = Vector2(0, 0)
-cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
 
 [sub_resource type="QuadMesh" id="QuadMesh_l5qvd"]
 
@@ -29,21 +13,6 @@ size = Vector2(584.75, 82)
 size = Vector2(9051, 306)
 
 [node name="World" type="Node2D"]
-
-[node name="LifeLabel" type="Label" parent="."]
-top_level = true
-light_mask = 0
-visibility_layer = 0
-offset_left = -1980.0
-offset_top = -226.0
-offset_right = -1358.0
-offset_bottom = 103.0
-theme_override_fonts/font = SubResource("FontFile_5hdgf")
-theme_override_font_sizes/font_size = 14
-text = "Life: 3"
-lines_skipped = 1
-max_lines_visible = 1
-text_direction = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 3
@@ -56,6 +25,14 @@ texture = ExtResource("1_0qq5r")
 position = Vector2(-530, 283)
 rotation = 0.0171809
 scale = Vector2(0.850201, 0.670852)
+speed = 620
+jump_force = 900
+
+[node name="LivesLabel" type="Label" parent="Player"]
+offset_left = 457.0
+offset_top = -539.0
+offset_right = 574.0
+offset_bottom = -467.0
 
 [node name="Platform" type="StaticBody2D" parent="."]
 
